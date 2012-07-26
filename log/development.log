@@ -4959,3 +4959,113 @@ Served asset /static_pages.js - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-26 23:29:58 +0300
 Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2012-07-27 01:14:51 +0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (34.0ms)[0m  [1mSELECT `tasks`.* FROM `tasks` [0m
+  Rendered tasks/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 448ms (Views: 334.0ms | ActiveRecord: 34.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /authors.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /tasks.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /static_pages.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /authors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /static_pages.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-27 01:14:57 +0300
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (9.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 35ms (Views: 16.0ms | ActiveRecord: 9.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-07-27 01:15:09 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
