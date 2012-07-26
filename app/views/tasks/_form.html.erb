@@ -1,0 +1,10 @@
+<%= simple_form_for @task do |f| %>
+  
+  <%= f.input :description %>  <br/>
+  
+  <%= f.label :status %>
+  <%= f.input :finished %>  <br/>
+   <%#= f.label :photo %> 
+  <%#= f.file_field :photo %><br />
+  <%= f.button :submit %>
+<% end %>

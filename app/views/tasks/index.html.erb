@@ -1,0 +1,39 @@
+<h1>A list of tasks</h1>
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Modify</th>
+      <th>Destroy</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <% @tasks.each do |task| %>
+      <tr>
+        <td>1</td>
+        <td><%= task.description %></td>
+        <td>
+        <% if task.finished == true %>
+        Finished
+        <%else%>
+        Not Finished
+        <%end%>
+        </td>
+        <td><%= link_to 'Edit', edit_task_path(task) %></td>
+        <td><%= link_to 'Destroy', task_path(task), confirm: 'Are you sure?', method: :delete %> </td>
+      </tr>
+    <% end %>
+     <tr colspan="5">
+      <td>
+       <%= link_to 'New', new_task_path %>
+         
+      </td>
+    </tr>
+    </tbody>
+  </table>
+ 
+  
+
