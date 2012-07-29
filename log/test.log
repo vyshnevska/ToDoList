@@ -303,3 +303,181 @@ Started GET "/static_pages/about" for 127.0.0.1 at 2012-07-25 16:09:06 +0300
 Processing by StaticPagesController#about as HTML
 Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
   [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-29 19:36:04 +0300
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (83.0ms)
+Completed 200 OK in 337ms (Views: 336.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-07-29 19:37:05 +0300
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-07-29 19:37:05 +0300
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-07-29 19:37:05 +0300
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2012-07-29 19:37:05 +0300
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 20:57:11 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (129.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (140.0ms)
+Completed 200 OK in 632ms (Views: 432.0ms | ActiveRecord: 129.0ms)
+  [1m[36m (24.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:24:07 +0300
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:25:24 +0300
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:29:38 +0300
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:31:22 +0300
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:36:25 +0300
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:41:37 +0300
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+Completed 500 Internal Server Error in 408ms
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:49:10 +0300
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+Completed 500 Internal Server Error in 401ms
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:50:27 +0300
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:52:49 +0300
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-29 21:54:15 +0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (111.0ms)[0m  SELECT `tasks`.* FROM `tasks` 
+  [1m[36mAuthor Load (117.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  Rendered tasks/index.html.erb within layouts/application (569.0ms)
+Completed 200 OK in 982ms (Views: 705.0ms | ActiveRecord: 229.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-07-29 21:55:51 +0300
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors_path" for 127.0.0.1 at 2012-07-29 21:57:58 +0300
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 21:59:00 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (78.0ms)
+Completed 200 OK in 390ms (Views: 329.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 22:00:04 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (79.0ms)
+Completed 200 OK in 381ms (Views: 327.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 22:01:35 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (75.0ms)
+Completed 200 OK in 352ms (Views: 301.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 22:02:50 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (72.0ms)
+Completed 200 OK in 361ms (Views: 305.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 22:03:52 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (80.0ms)
+Completed 200 OK in 377ms (Views: 322.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 22:09:19 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 342ms (Views: 295.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m

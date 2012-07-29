@@ -5,6 +5,7 @@
       <th>#</th>
       <th>Description</th>
       <th>Status</th>
+      <th>Author</th>
       <th>Modify</th>
       <th>Destroy</th>
       
@@ -13,7 +14,7 @@
   <tbody>
     <% @tasks.each do |task| %>
       <tr>
-        <td>1</td>
+        <td>#</td>
         <td><%= task.description %></td>
         <td>
         <% if task.finished == true %>
@@ -22,11 +23,15 @@
         Not Finished
         <%end%>
         </td>
+        <td>
+          <%= image_tag task.author.photo.url(:thumb), :style=>"float:left;" if task.author.photo.exists? %>
+          <%#= task.author.name%>
+        </td>
         <td><%= link_to 'Edit', edit_task_path(task) %></td>
         <td><%= link_to 'Destroy', task_path(task), confirm: 'Are you sure?', method: :delete %> </td>
       </tr>
     <% end %>
-     <tr colspan="5">
+     <tr colspan="6">
       <td>
        <%= link_to 'New', new_task_path %>
          

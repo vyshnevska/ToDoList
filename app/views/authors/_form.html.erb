@@ -1,7 +1,9 @@
-<%= simple_form_for @author do |f| %>
-  <%#= f.label :name %>
-  <%= f.input :name %>  <br/>
-   <%= f.label :photo %> 
-  <%= f.file_field :photo %><br />
-  <%= f.button :submit %>
-<% end %>
+<form class="well">
+  <%= simple_form_for @author do |f| %>
+    <%#= f.label :name %>
+    <%= f.input :name %>  <br/>
+    <%= f.label :photo %> 
+    <%= f.file_field :photo %><br />
+    <%= f.button :submit %>
+  <% end %>
+ </form>

@@ -1,10 +1,8 @@
 <%= simple_form_for @task do |f| %>
-  
   <%= f.input :description %>  <br/>
-  
   <%= f.label :status %>
   <%= f.input :finished %>  <br/>
-   <%#= f.label :photo %> 
-  <%#= f.file_field :photo %><br />
+  <%= f.label :author %><br />
+  <%= f.select :author_id, Author.all.map {|a| [a.name, a.id]}, :prompt=>"--Choose an author--" %>
   <%= f.button :submit %>
 <% end %>

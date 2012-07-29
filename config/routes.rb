@@ -6,7 +6,7 @@ ToDoManagerApp::Application.routes.draw do
 
   get "static_pages/help"
   get "static_pages/about"
-  root :to => 'home#index'
+  root :to => 'tasks#index'
 
 
   # The priority is based upon order of creation:

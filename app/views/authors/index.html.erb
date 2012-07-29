@@ -1,25 +1,29 @@
 <h1>A list of authors</h1>
-
-<% @authors.each do |author| %>
-<table>
-  <tr> 
-    <td style="width: 500px">
-      <%= image_tag author.photo.url(:thumb), :style=>"float:left;" if author.photo.exists? %>
-     
-     </td>
-    
-    <td> <%= author.name %></td>
-    
-</tr>
-
-<tr colspan="2">
-  <td>
-    <%= link_to 'Edit', edit_author_path(author) %>
-    <%= link_to 'Destroy', author_path(author), confirm: 'Are you sure?', method: :delete %>  
-  </td>
-</tr>
-</table>
-<% end %>
-<br/>
-
-<%= link_to 'New', new_author_path %>
+<table class="table">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Photo</th>
+      <th>Status</th>
+      <th>Modify</th>
+      <th>Destroy</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <% @authors.each do |author| %>
+      <tr>
+        <td>#</td>
+        <td> <%= image_tag author.photo.url(:thumb), :style=>"float:left;" if author.photo.exists? %></td>
+        <td><%= author.name  %></td>
+        <td><%= link_to 'Edit', edit_author_path(author) %></td>
+        <td><%= link_to 'Destroy', author_path(author), confirm: 'Are you sure?', method: :delete %> </td>
+      </tr>
+    <% end %>
+     <tr colspan="5">
+      <td>
+       <%= link_to 'New', new_author_path %>
+      </td>
+    </tr>
+    </tbody>
+  </table>
