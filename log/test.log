@@ -481,3 +481,740 @@ Processing by AuthorsController#index as HTML
   Rendered authors/index.html.erb within layouts/application (68.0ms)
 Completed 200 OK in 342ms (Views: 295.0ms | ActiveRecord: 0.0ms)
   [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 22:58:33 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (219.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (92.0ms)
+Completed 200 OK in 695ms (Views: 362.0ms | ActiveRecord: 219.0ms)
+  [1m[36m (51.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 23:14:23 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (56.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 461ms (Views: 306.0ms | ActiveRecord: 56.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 23:14:24 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (181.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 197ms (Views: 15.0ms | ActiveRecord: 181.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 23:15:28 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 323ms (Views: 277.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-29 23:15:29 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (101.0ms)[0m  ROLLBACK
+  [1m[36m (5.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:34:45 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (87.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (127.0ms)
+Completed 200 OK in 719ms (Views: 511.0ms | ActiveRecord: 87.0ms)
+  [1m[36m (13.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:36:09 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:45:24 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 317ms (Views: 271.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:45:25 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 09:45:25 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (1236.1ms)
+Completed 200 OK in 1388ms (Views: 1388.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:50:49 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 330ms (Views: 283.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:50:50 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 09:50:50 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (914.1ms)
+Completed 200 OK in 972ms (Views: 971.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:55:24 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 320ms (Views: 272.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 09:55:25 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 09:55:25 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (984.1ms)
+Completed 200 OK in 1041ms (Views: 1039.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:01:32 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 334ms (Views: 286.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:01:33 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 9ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:01:33 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (921.1ms)
+Completed 200 OK in 975ms (Views: 974.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:04:19 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 325ms (Views: 277.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:04:20 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (4.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:04:20 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (1066.1ms)
+Completed 200 OK in 1193ms (Views: 1191.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (115.0ms)[0m  SELECT COUNT(*) FROM `authors` 
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:11:12 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 326ms (Views: 279.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:11:13 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:11:13 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (911.1ms)
+Completed 200 OK in 964ms (Views: 963.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:14:00 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 323ms (Views: 277.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:14:01 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (59.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 75ms (Views: 14.0ms | ActiveRecord: 59.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:14:01 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (911.1ms)
+Completed 200 OK in 972ms (Views: 971.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:17:38 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 319ms (Views: 272.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:17:39 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:17:39 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (902.1ms)
+Completed 200 OK in 956ms (Views: 956.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:19:50 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 320ms (Views: 273.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:19:51 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:19:51 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (908.1ms)
+Completed 200 OK in 962ms (Views: 961.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:23:59 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 345ms (Views: 296.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:24:00 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:24:00 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (952.1ms)
+Completed 200 OK in 1008ms (Views: 1008.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:25:49 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 348ms (Views: 294.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:25:50 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:25:50 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (978.1ms)
+Completed 200 OK in 1038ms (Views: 1038.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:32:38 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 327ms (Views: 279.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:32:39 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:32:39 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (907.1ms)
+Completed 200 OK in 960ms (Views: 960.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:35:33 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 335ms (Views: 283.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:35:34 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (108.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 126ms (Views: 16.0ms | ActiveRecord: 108.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:35:34 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (945.1ms)
+Completed 200 OK in 998ms (Views: 998.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:36:27 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 322ms (Views: 274.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:36:28 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:36:28 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (890.1ms)
+Completed 200 OK in 945ms (Views: 945.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:44:20 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 326ms (Views: 279.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:44:21 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:44:21 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (887.1ms)
+Completed 200 OK in 1019ms (Views: 1019.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:47:36 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 332ms (Views: 283.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:47:37 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:47:37 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (899.1ms)
+Completed 200 OK in 955ms (Views: 954.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:50:57 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (60.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 490ms (Views: 342.0ms | ActiveRecord: 60.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:50:58 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:50:58 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (900.1ms)
+Completed 200 OK in 953ms (Views: 953.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (164.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 07:50:59', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 07:50:59')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (27.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:54:26 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (71.0ms)
+Completed 200 OK in 335ms (Views: 289.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:54:27 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:54:27 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (930.1ms)
+Completed 200 OK in 984ms (Views: 984.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (15.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 07:54:28', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 07:54:28')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (28.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:55:23 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (65.0ms)
+Completed 200 OK in 325ms (Views: 276.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:55:24 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (27.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 35ms (Views: 7.0ms | ActiveRecord: 27.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:55:24 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (887.1ms)
+Completed 200 OK in 940ms (Views: 939.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (118.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 07:55:25', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 07:55:25')[0m
+[paperclip] Saving attachments.
+  [1m[35m (1.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (35.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:59:10 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 325ms (Views: 279.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 10:59:11 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 10:59:11 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (894.1ms)
+Completed 200 OK in 949ms (Views: 948.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (18.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 07:59:12', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 07:59:12')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (43.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:08:32 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (77.0ms)
+Completed 200 OK in 360ms (Views: 309.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:08:33 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 11:08:33 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (1049.1ms)
+Completed 200 OK in 1112ms (Views: 1111.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (55.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 08:08:35', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 08:08:35')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (96.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:09:45 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (67.0ms)
+Completed 200 OK in 322ms (Views: 274.0ms | ActiveRecord: 1.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:09:46 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 1.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 11:09:46 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (908.1ms)
+Completed 200 OK in 963ms (Views: 962.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (91.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 08:09:47', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 08:09:47')[0m
+[paperclip] Saving attachments.
+  [1m[35m (1.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (37.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:11:42 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (68.0ms)
+Completed 200 OK in 328ms (Views: 282.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:11:43 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 11:11:43 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (920.1ms)
+Completed 200 OK in 976ms (Views: 975.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 08:11:44', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 08:11:44')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (84.0ms)[0m  [1mROLLBACK[0m
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:12:47 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (64.0ms)
+Completed 200 OK in 318ms (Views: 272.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (1.0ms)[0m  [1mROLLBACK[0m
+  [1m[35m (1.0ms)[0m  BEGIN
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-07-30 11:12:48 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-07-30 11:12:48 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (906.1ms)
+Completed 200 OK in 962ms (Views: 962.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (1.0ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (57.0ms)[0m  [1mINSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-07-30 08:12:49', 'New name', NULL, NULL, NULL, NULL, '2012-07-30 08:12:49')[0m
+[paperclip] Saving attachments.
+  [1m[35m (0.0ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (24.0ms)[0m  [1mROLLBACK[0m
