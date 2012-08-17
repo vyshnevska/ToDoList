@@ -10760,3 +10760,1639 @@ Served asset /tasks.js - 304 Not Modified (3ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-07-30 10:58:24 +0300
 Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-17 08:07:34 +0300
+Processing by TasksController#index as HTML
+  [1m[36mTask Load (1.0ms)[0m  [1mSELECT `tasks`.* FROM `tasks` [0m
+  [1m[35mAuthor Load (76.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 2 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1
+  Rendered tasks/index.html.erb within layouts/application (535.0ms)
+Completed 200 OK in 1042ms (Views: 918.1ms | ActiveRecord: 81.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /static_pages.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /jquery.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /authors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /tasks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /authors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /static_pages.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /tasks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:40 +0300
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+  Rendered authors/index.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 40ms (Views: 36.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:54 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-08-17 08:07:57 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (998.1ms)
+  Rendered authors/new.html.erb within layouts/application (1062.1ms)
+Completed 200 OK in 1077ms (Views: 1075.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:07:58 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new?utf8=%E2%9C%93&authenticity_token=iD%2BtYwSsUwy5PVQCYvGM48VB%2BT%2FFy0WidBAGZ4uR%2FBM%3D&author%5Bname%5D=Koperfild&author%5Bphoto%5D=slide_9.jpg&commit=Create+Author" for 127.0.0.1 at 2012-08-17 08:08:06 +0300
+Processing by AuthorsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>"slide_9.jpg"}, "commit"=>"Create Author"}
+  Rendered authors/_form.html.erb (5.0ms)
+  Rendered authors/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 20ms (Views: 20.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:08:07 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:27:53 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+  Rendered authors/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 338ms (Views: 294.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /static_pages.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /jquery.js - 304 Not Modified (37ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /authors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /tasks.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /authors.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /home.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /static_pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /tasks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:27:57 +0300
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-08-17 08:28:00 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (965.1ms)
+  Rendered authors/new.html.erb within layouts/application (1052.1ms)
+Completed 200 OK in 1068ms (Views: 1067.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /authors.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:01 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new?utf8=%E2%9C%93&authenticity_token=iD%2BtYwSsUwy5PVQCYvGM48VB%2BT%2FFy0WidBAGZ4uR%2FBM%3D&author%5Bname%5D=Koperfild&author%5Bphoto%5D=slide_9.jpg&commit=Create+Author" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Processing by AuthorsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>"slide_9.jpg"}, "commit"=>"Create Author"}
+  Rendered authors/_form.html.erb (10.0ms)
+  Rendered authors/new.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 36ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:12 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:28:25 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:30:15 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+  Rendered authors/index.html.erb within layouts/application (61.0ms)
+Completed 200 OK in 357ms (Views: 312.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /authors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /tasks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /authors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /static_pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /tasks.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:20 +0300
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-08-17 08:30:23 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (892.1ms)
+  Rendered authors/new.html.erb within layouts/application (975.1ms)
+Completed 200 OK in 987ms (Views: 987.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:24 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new?utf8=%E2%9C%93&authenticity_token=iD%2BtYwSsUwy5PVQCYvGM48VB%2BT%2FFy0WidBAGZ4uR%2FBM%3D&author%5Bname%5D=Koperfild&author%5Bphoto%5D=&commit=Create+Author" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Processing by AuthorsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>""}, "commit"=>"Create Author"}
+  Rendered authors/_form.html.erb (7.0ms)
+  Rendered authors/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 25ms (Views: 25.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:30:27 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-17 08:31:49 +0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.0ms)[0m  SELECT `tasks`.* FROM `tasks` 
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  Rendered tasks/index.html.erb within layouts/application (388.0ms)
+Completed 200 OK in 413ms (Views: 400.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (1.0ms)[0m  SELECT `tasks`.* FROM `tasks` 
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  Rendered tasks/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 54ms (Views: 48.0ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/authors/new?utf8=%E2%9C%93&authenticity_token=iD%2BtYwSsUwy5PVQCYvGM48VB%2BT%2FFy0WidBAGZ4uR%2FBM%3D&author%5Bname%5D=Koperfild&author%5Bphoto%5D=&commit=Create+Author" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Processing by AuthorsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>""}, "commit"=>"Create Author"}
+  Rendered authors/_form.html.erb (8.0ms)
+  Rendered authors/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 27ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:52 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (0.0ms)[0m  SELECT `tasks`.* FROM `tasks` 
+  [1m[36mAuthor Load (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  Rendered tasks/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 38ms (Views: 35.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /tasks.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:33:59 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2012-08-17 08:34:02 +0300
+Processing by TasksController#new as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered tasks/_form.html.erb (19.0ms)
+  Rendered tasks/new.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:02 +0300
+Served asset /home.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:02 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:03 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Processing by TasksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "task"=>{"description"=>"Feed a cat Tom2", "finished"=>"0", "author_id"=>"1"}, "commit"=>"Create Task"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (131.0ms)[0m  INSERT INTO `tasks` (`author_id`, `created_at`, `description`, `finished`, `updated_at`) VALUES (1, '2012-08-17 05:34:12', 'Feed a cat Tom2', 0, '2012-08-17 05:34:12')
+  [1m[36m (20.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 403ms (ActiveRecord: 151.0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Processing by TasksController#index as HTML
+  [1m[35mTask Load (1.0ms)[0m  SELECT `tasks`.* FROM `tasks` 
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  [1m[35mAuthor Load (2.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 2 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 1 LIMIT 1
+  Rendered tasks/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 60ms (Views: 54.0ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:12 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:13 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:13 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:13 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:13 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:13 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:34:19 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+  Rendered authors/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 27ms (Views: 24.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:20 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (9.0ms)
+  Rendered authors/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 36ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:22 +0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/authors/new?utf8=%E2%9C%93&authenticity_token=iD%2BtYwSsUwy5PVQCYvGM48VB%2BT%2FFy0WidBAGZ4uR%2FBM%3D&author%5Bname%5D=Koperfild&author%5Bphoto%5D=slide_9.jpg&commit=Create+Author" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Processing by AuthorsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>"slide_9.jpg"}, "commit"=>"Create Author"}
+  Rendered authors/_form.html.erb (8.0ms)
+  Rendered authors/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 24ms (Views: 24.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:35 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:36 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:36 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:36 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:36 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:34:36 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/authors/new?utf8=%E2%9C%93&authenticity_token=iD%2BtYwSsUwy5PVQCYvGM48VB%2BT%2FFy0WidBAGZ4uR%2FBM%3D&author[name]=Koperfild&author[photo]=slide_9.jpg&commit=Create+Author" for 127.0.0.1 at 2012-08-17 08:35:40 +0300
+Processing by AuthorsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>"slide_9.jpg"}, "commit"=>"Create Author"}
+  Rendered authors/_form.html.erb (51.0ms)
+  Rendered authors/new.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 73ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:35:40 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /authors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:35:41 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new?utf8=%E2%9C%93&authenticity_token=iD%2BtYwSsUwy5PVQCYvGM48VB%2BT%2FFy0WidBAGZ4uR%2FBM%3D&author[name]=Koperfild&author[photo]=slide_9.jpg&commit=Create+Author" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Processing by AuthorsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>"slide_9.jpg"}, "commit"=>"Create Author"}
+  Rendered authors/_form.html.erb (8.0ms)
+  Rendered authors/new.html.erb within layouts/application (13.0ms)
+Completed 200 OK in 32ms (Views: 31.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:03 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:36:10 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 72ms (Views: 69.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:11 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (9.0ms)
+  Rendered authors/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /static_pages.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /tasks.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:13 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2012-08-17 08:36:20 +0300
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>#<ActionDispatch::Http::UploadedFile:0x58560d8 @original_filename="0027.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"author[photo]\"; filename=\"0027.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/Users/nvyshnev/AppData/Local/Temp/RackMultipart20120817-9296-clobuq>>}, "commit"=>"Create Author"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (7.0ms)[0m  INSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-08-17 05:36:22', 'Koperfild', 'image/jpeg', '0027.jpg', 300310, '2012-08-17 05:36:20', '2012-08-17 05:36:22')
+[paperclip] Saving attachments.
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/4/original/0027.jpg
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/4/medium/0027.jpg
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/4/thumb/0027.jpg
+  [1m[36m (72.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors
+Completed 302 Found in 2356ms (ActiveRecord: 79.0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (17.0ms)
+Completed 200 OK in 42ms (Views: 39.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /authors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:23 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/authors/4/edit" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Processing by AuthorsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 4 LIMIT 1[0m
+  Rendered authors/_form.html.erb (9.0ms)
+  Rendered authors/edit.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 71ms (Views: 68.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /authors.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:43 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/authors/4" for 127.0.0.1 at 2012-08-17 08:36:52 +0300
+Processing by AuthorsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Koperfild", "photo"=>#<ActionDispatch::Http::UploadedFile:0x58daeb8 @original_filename="slide_9.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"author[photo]\"; filename=\"slide_9.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/Users/nvyshnev/AppData/Local/Temp/RackMultipart20120817-9296-r2pwc9>>}, "commit"=>"Update Author", "id"=>"4"}
+  [1m[35mAuthor Load (12.0ms)[0m  SELECT `authors`.* FROM `authors` WHERE `authors`.`id` = 4 LIMIT 1
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (63.0ms)[0m  UPDATE `authors` SET `photo_file_name` = 'slide_9.jpg', `photo_file_size` = 90859, `photo_updated_at` = '2012-08-17 05:36:52', `updated_at` = '2012-08-17 05:36:52' WHERE `authors`.`id` = 4
+[paperclip] Saving attachments.
+[paperclip] deleting D:/rubycore/ToDoManager_app/public/system/photos/4/original/0027.jpg
+[paperclip] deleting D:/rubycore/ToDoManager_app/public/system/photos/4/medium/0027.jpg
+[paperclip] deleting D:/rubycore/ToDoManager_app/public/system/photos/4/thumb/0027.jpg
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/4/original/slide_9.jpg
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/4/medium/slide_9.jpg
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/4/thumb/slide_9.jpg
+  [1m[36m (39.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors
+Completed 302 Found in 774ms (ActiveRecord: 114.0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (0.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 65ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /static_pages.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:53 +0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Processing by AuthorsController#new as HTML
+  Rendered authors/_form.html.erb (16.0ms)
+  Rendered authors/new.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:36:56 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/authors" for 127.0.0.1 at 2012-08-17 08:37:06 +0300
+Processing by AuthorsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iD+tYwSsUwy5PVQCYvGM48VB+T/Fy0WidBAGZ4uR/BM=", "author"=>{"name"=>"Nero", "photo"=>#<ActionDispatch::Http::UploadedFile:0x582de30 @original_filename="2227.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"author[photo]\"; filename=\"2227.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/Users/nvyshnev/AppData/Local/Temp/RackMultipart20120817-9296-1n3jjlm>>}, "commit"=>"Create Author"}
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (16.0ms)[0m  INSERT INTO `authors` (`created_at`, `name`, `photo_content_type`, `photo_file_name`, `photo_file_size`, `photo_updated_at`, `updated_at`) VALUES ('2012-08-17 05:37:07', 'Nero', 'image/jpeg', '2227.jpg', 268270, '2012-08-17 05:37:06', '2012-08-17 05:37:07')
+[paperclip] Saving attachments.
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/5/original/2227.jpg
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/5/medium/2227.jpg
+[paperclip] saving D:/rubycore/ToDoManager_app/public/system/photos/5/thumb/2227.jpg
+  [1m[36m (89.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/authors
+Completed 302 Found in 819ms (ActiveRecord: 105.0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Processing by AuthorsController#index as HTML
+  [1m[35mAuthor Load (1.0ms)[0m  SELECT `authors`.* FROM `authors` 
+  Rendered authors/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 31ms (Views: 28.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /static_pages.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /tasks.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /authors.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /authors.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /static_pages.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /tasks.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:37:07 +0300
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-08-17 08:46:30 +0300
+Processing by AuthorsController#index as HTML
+  [1m[36mAuthor Load (1.0ms)[0m  [1mSELECT `authors`.* FROM `authors` [0m
+  Rendered authors/index.html.erb within layouts/application (69.0ms)
+Completed 200 OK in 346ms (Views: 299.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /application.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /home.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /jquery.js - 304 Not Modified (35ms)
+
+
+Started GET "/assets/authors.css?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /authors.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.css?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /tasks.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /static_pages.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/authors.js?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /authors.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /home.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /static_pages.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/tasks.js?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /tasks.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-17 08:46:34 +0300
+Served asset /application.js - 304 Not Modified (11ms)

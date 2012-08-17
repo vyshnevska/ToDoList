@@ -31,21 +31,21 @@ describe "Authors" do
   #    response.should redirect_to(author_path(assigns(:author)))
   #   end
   #  end
-  describe "PUT 'update/:id'" do
-    it "allows an author to be updated" do
-      @author =Author.new
-      @author.name="New name"
-      @author.photo=nil
+  #describe "PUT 'update/:id'" do
+   # it "allows an author to be updated" do
+    #  @author =Author.new
+   #   @author.name="New name"
+   #   @author.photo=nil
       #@params = { :name => "new name", :photo => nil }
      # put :update, :id => @author.id, :author => @params
       # @author.reload
     
       # @author.name.should == @params[:name]
       # @author.photo.should == @params[:photo] 
-      if @author.save 
-        get edit_author_path, :id => @author.id
-        assert assigns(:author)
-      end
-    end
-  end
+   #   if @author.save 
+   #     get edit_author_path, :id => @author.id
+   #     assert assigns(:author)
+   #   end
+   # end
+  #end
 end
