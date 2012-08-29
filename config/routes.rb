@@ -1,4 +1,6 @@
 ToDoManagerApp::Application.routes.draw do
+  devise_for :users
+
   #devise_for :users
   resources :authors
   resources :tasks
@@ -6,7 +8,7 @@ ToDoManagerApp::Application.routes.draw do
 
   get "static_pages/help"
   get "static_pages/about"
-  root :to => 'tasks#index'
+  root :to => 'home#index'
 
 
   # The priority is based upon order of creation:

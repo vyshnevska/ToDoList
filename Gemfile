@@ -9,7 +9,7 @@ gem 'rails', '3.2.2'
 gem 'mysql2'
 gem "paperclip"
 gem "simple_form"
-#gem "devise", '~> 1.1.0'
+gem "devise", '~> 1.1.rc0'
 
 # Gems used only for assets and not required
 # in production environments by default.
