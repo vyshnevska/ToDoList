@@ -15,6 +15,29 @@
     <link href="bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap-responsive.css" rel="stylesheet">
     <link href="docs.css" rel="stylesheet">
+    <script src="http://js.pusher.com/1.12/pusher.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      // Enable pusher logging - don't include this in production
+      Pusher.log = function(message) {
+        if (window.console && window.console.log) window.console.log(message);
+      };
+
+      // Flash fallback logging - don't include this in production
+      WEB_SOCKET_DEBUG = true;
+
+      var pusher = new Pusher('7487024a07922769c670');
+      var channel = pusher.subscribe('task_notifications_chanel');
+      channel.bind('task_created_event', function(data) {
+        alert("Task created: "+data);
+      });
+      channel.bind('task_updated_event', function(data) {
+        alert("Task updated "+data);
+      });
+      channel.bind('task_deleted_event', function(data) {
+        alert("Task deleted "+data);
+      });
+    </script>
+
 
     <script type="text/javascript">
 
@@ -58,7 +81,7 @@
               </li>
               <% if user_signed_in? %>
                 <li>
-                  <%#= current_user.email%>
+  <%#= current_user.email%>
                   <%= link_to(current_user.email, tasks_path)%>
                 </li>
               <%end%>
@@ -68,7 +91,7 @@
               <input type="text" class="search-query span2" placeholder="Search">
             </form>
             <ul class="nav pull-right">
-             
+
               <% if user_signed_in? %>
                 <li>
                   <%= link_to('Logout', destroy_user_session_path, :method => :delete) %>

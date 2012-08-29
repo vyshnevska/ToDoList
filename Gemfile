@@ -10,7 +10,7 @@ gem 'mysql2'
 gem "paperclip"
 gem "simple_form"
 gem "devise", '~> 1.1.rc0'
-
+gem "pusher"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
