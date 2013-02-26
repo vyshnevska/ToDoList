@@ -1,4 +1,5 @@
 <h1>A list of authors</h1>
+<p>test</p>
 <table class="table">
   <thead>
     <tr>
@@ -7,10 +8,10 @@
       <th>Status</th>
       <th>Modify</th>
       <th>Destroy</th>
-      
+
     </tr>
   </thead>
-  <tbody>
+  <tbody id="author_list">
     <% @authors.each do |author| %>
       <tr>
         <td>#</td>
@@ -20,10 +21,32 @@
         <td><%= link_to 'Destroy', author_path(author), confirm: 'Are you sure?', method: :delete %> </td>
       </tr>
     <% end %>
-     <tr colspan="5">
+    <tr colspan="5">
       <td>
-       <%= link_to 'New', new_author_path %>
+        <%= link_to 'New', new_author_path %>
       </td>
     </tr>
-    </tbody>
-  </table>
+    <tr colspan="5">
+      <td> <p id="add_link"><%= link_to_function("Add an Author",
+            "Element.remove('add_link'); Element.show('add_author')")%></p>
+
+        <div id="add_author" style="display:none;">
+          <%#= form_remote_tag(:url => {:action => 'create'},
+            :update => "author_list", :position => :bottom,
+            :html => {:id => 'author_form'})%>
+          <!--Name: <%#= text_field "author", "name" %>-->
+          <%#= submit_tag 'Add' %>
+          <%#= end_form_tag %>
+          
+         
+          
+          <% form_tag :url => {:action => 'create',
+            :update => "author_list", :position => :bottom, :html => {:id => 'simple_form_for'}},
+            :remote => true, :method => :get do %>
+            <%= submit_tag "Add" %>
+        <% end %>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>

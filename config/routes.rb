@@ -4,6 +4,7 @@ ToDoManagerApp::Application.routes.draw do
   #devise_for :users
   resources :authors
   resources :tasks
+  resources :comments
   get "static_pages/home"
 
   get "static_pages/help"

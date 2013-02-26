@@ -21,6 +21,12 @@ class AuthorsController < ApplicationController
         render action: "edit" 
       end
   end
+  def list
+     @authors = Author.find(:all)
+  end
+   def show
+     @author = Author.find(params[:id])
+   end
 
   def create
     @author = Author.new 

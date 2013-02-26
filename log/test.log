@@ -1382,3 +1382,547 @@ Processing by AuthorsController#new as HTML
   Rendered authors/_form.html.erb (949.1ms)
 Completed 200 OK in 1004ms (Views: 1003.1ms | ActiveRecord: 0.0ms)
   [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 11:52:13 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 11:52:13 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (280.0ms)
+Completed 200 OK in 801ms (Views: 752.0ms | ActiveRecord: 18.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 11:52:16 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 11:52:16 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 11:52:16 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 11:52:16 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 11:54:11 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 11:54:12 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (166.0ms)
+Completed 200 OK in 491ms (Views: 469.0ms | ActiveRecord: 8.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 11:54:13 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 11:54:13 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 11:58:17 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 11:58:17 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (168.0ms)
+Completed 200 OK in 493ms (Views: 471.0ms | ActiveRecord: 8.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 11:58:19 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 11:58:19 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 12:00:43 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:00:43 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (165.0ms)
+Completed 200 OK in 497ms (Views: 474.0ms | ActiveRecord: 10.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:00:44 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:00:44 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 12:02:38 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:02:38 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (166.0ms)
+Completed 200 OK in 496ms (Views: 473.0ms | ActiveRecord: 9.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:02:40 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:02:40 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 12:04:56 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:04:56 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (165.0ms)
+Completed 200 OK in 492ms (Views: 470.0ms | ActiveRecord: 8.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:04:58 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:04:58 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/" for 127.0.0.1 at 2012-12-26 12:06:18 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (86.0ms)
+Completed 200 OK in 387ms (Views: 386.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:06:19 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:06:19 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+Completed 200 OK in 111ms (Views: 88.0ms | ActiveRecord: 9.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-12-26 12:07:58 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 387ms (Views: 387.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-12-26 12:07:59 +0200
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-12-26 12:07:59 +0200
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-12-26 12:07:59 +0200
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2012-12-26 12:07:59 +0200
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 6ms (Views: 6.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-12-26 12:09:55 +0200
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (85.0ms)
+Completed 200 OK in 388ms (Views: 387.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/home" for 127.0.0.1 at 2012-12-26 12:09:57 +0200
+Processing by StaticPagesController#home as HTML
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-12-26 12:09:57 +0200
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/help" for 127.0.0.1 at 2012-12-26 12:09:57 +0200
+Processing by StaticPagesController#help as HTML
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/static_pages/about" for 127.0.0.1 at 2012-12-26 12:09:57 +0200
+Processing by StaticPagesController#about as HTML
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/index" for 127.0.0.1 at 2012-12-26 12:11:36 +0200
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"index"}
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:11:36 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (166.0ms)
+Completed 200 OK in 493ms (Views: 470.0ms | ActiveRecord: 10.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:11:37 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:11:37 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/" for 127.0.0.1 at 2012-12-26 12:14:37 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:14:38 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (167.0ms)
+Completed 200 OK in 490ms (Views: 467.0ms | ActiveRecord: 9.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:14:39 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:14:39 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 12:18:03 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:18:04 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (165.0ms)
+Completed 200 OK in 487ms (Views: 464.0ms | ActiveRecord: 8.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:18:05 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:18:05 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/list" for 127.0.0.1 at 2012-12-26 12:20:19 +0200
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"list"}
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:20:19 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (165.0ms)
+Completed 200 OK in 492ms (Views: 469.0ms | ActiveRecord: 8.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:20:20 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:20:20 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/list" for 127.0.0.1 at 2012-12-26 12:22:48 +0200
+Processing by AuthorsController#show as HTML
+  Parameters: {"id"=>"list"}
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:22:49 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (166.0ms)
+Completed 200 OK in 576ms (Views: 526.0ms | ActiveRecord: 17.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:22:50 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:22:50 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 12:56:09 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:56:09 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (168.0ms)
+Completed 200 OK in 490ms (Views: 466.0ms | ActiveRecord: 10.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:56:10 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:56:10 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:57:36 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:57:36 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (167.0ms)
+Completed 200 OK in 496ms (Views: 472.0ms | ActiveRecord: 9.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 12:59:05 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:59:05 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (165.0ms)
+Completed 200 OK in 494ms (Views: 469.0ms | ActiveRecord: 11.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 12:59:06 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 12:59:06 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 13:01:04 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 13:01:04 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (2.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (166.0ms)
+Completed 200 OK in 494ms (Views: 469.0ms | ActiveRecord: 10.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 13:01:04 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 13:01:04 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (1.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors" for 127.0.0.1 at 2012-12-26 13:02:53 +0200
+Processing by AuthorsController#index as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 13:02:53 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (169.0ms)
+Completed 200 OK in 500ms (Views: 477.0ms | ActiveRecord: 9.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 13:02:54 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 0ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 13:02:54 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (0.0ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.0ms)[0m  ROLLBACK
+  [1m[36m (0.0ms)[0m  [1mBEGIN[0m
+
+
+Started GET "/authors/new" for 127.0.0.1 at 2012-12-26 13:07:18 +0200
+Processing by AuthorsController#new as HTML
+Completed   in 1ms
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2012-12-26 13:07:18 +0200
+Processing by Devise::SessionsController#new as HTML
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/shared/_links.erb (1.0ms)
+  Rendered C:/Ruby192/lib/ruby/gems/1.9.1/gems/devise-1.4.7/app/views/devise/sessions/new.html.erb within layouts/application (160.0ms)
+Completed 200 OK in 475ms (Views: 452.0ms | ActiveRecord: 10.0ms)
+  [1m[35m (1.0ms)[0m  ROLLBACK

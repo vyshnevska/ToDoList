@@ -1,0 +1,7 @@
+<h1>Listing Tasks</h1>
+<ul id="task_list">
+<% @authors.each do |a| %>
+<li><%= link_to a.name, :action => 'list' %>
+</li>
+<% end %>
+</ul>
