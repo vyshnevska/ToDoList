@@ -11,3 +11,6 @@
  *= require_self
  *= require_tree .
 */
+.registration_form{
+  margin: 30px 0px 0px 50px;
+}
